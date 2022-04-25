@@ -1,0 +1,24 @@
+.Items {
+  margin-top: var(--space-xl);
+}
+
+.Items__title {
+  font-size: var(--size-text-l);
+  color: var(--color-text-secondary);
+}
+
+.Items__empty {
+  background: var(--color-background-light);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-elevation-low);
+  padding: var(--space) var(--space-xl);
+  margin: var(--space) 0;
+}
+
+.Items__list {
+  display: grid;
+  gap: 0.75rem;
+  margin: var(--space) 0;
+  list-style-type: none;
+  padding: 0;
+}

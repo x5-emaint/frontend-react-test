@@ -1,0 +1,15 @@
+.RootLayout {
+  min-height: 100vh;
+  background: var(--color-background);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-gap: var(--space);
+}
+
+.RootLayout__content {
+  max-width: var(--content-width);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+}

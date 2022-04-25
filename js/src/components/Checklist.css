@@ -1,0 +1,20 @@
+.Checklist {
+  display: grid;
+  /* gap: var(--space); */
+  margin: var(--space-3xl) auto;
+  max-width: var(--max-width);
+}
+
+.Checklist__title {
+  font-size: var(--size-text-2xl);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.Checklist__info {
+  font-size: var(--size-text-xs);
+  padding-left: var(--space-s);
+  margin: 0;
+  margin-bottom: var(--space);
+}

@@ -1,0 +1,11 @@
+.AddItemForm {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 2rem;
+  margin: var(--space) 0;
+}
+
+.AddItemForm .Button {
+  margin-top: 3px;
+}
